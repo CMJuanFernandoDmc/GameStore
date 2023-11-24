@@ -1,0 +1,115 @@
+<ion-content class="body">
+  <ion-header class="header">
+    <button ion-button [routerLink]="['/home']" class="logo">
+      <img src="../../assets/imagen/logo.png">
+    </button>
+    <div class="slogan">CapitanDante<br />GameStore</div>
+    <svg class="material-symbols-search" width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38.1116 42L26.1442 29.4C25.1944 30.2 24.1021 30.8333 22.8674 31.3C21.6326 31.7667 20.3187 32 18.9257 32C15.4748 32 12.5544 30.7413 10.1648 28.224C7.77506 25.7067 6.57957 22.632 6.57831 19C6.57831 15.3667 7.77379 12.292 10.1648 9.776C12.5557 7.26 15.476 6.00133 18.9257 6C22.3766 6 25.297 7.25867 27.6866 9.776C30.0763 12.2933 31.2718 15.368 31.2731 19C31.2731 20.4667 31.0515 21.85 30.6082 23.15C30.165 24.45 29.5634 25.6 28.8036 26.6L40.7711 39.2L38.1116 42ZM18.9257 28C21.3002 28 23.3188 27.1247 24.9816 25.374C26.6444 23.6233 27.4752 21.4987 27.4739 19C27.4739 16.5 26.6425 14.3747 24.9797 12.624C23.3169 10.8733 21.2989 9.99867 18.9257 10C16.5512 10 14.5326 10.8753 12.8698 12.626C11.207 14.3767 10.3762 16.5013 10.3775 19C10.3775 21.5 11.2089 23.6253 12.8717 25.376C14.5345 27.1267 16.5525 28.0013 18.9257 28Z" fill="black"/>
+    </svg>
+    <svg class="mdi-person" width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M26.0964 8C28.3864 8 30.5826 8.84285 32.2019 10.3431C33.8212 11.8434 34.7309 13.8783 34.7309 16C34.7309 18.1217 33.8212 20.1566 32.2019 21.6569C30.5826 23.1571 28.3864 24 26.0964 24C23.8064 24 21.6101 23.1571 19.9908 21.6569C18.3715 20.1566 17.4618 18.1217 17.4618 16C17.4618 13.8783 18.3715 11.8434 19.9908 10.3431C21.6101 8.84285 23.8064 8 26.0964 8ZM26.0964 28C35.6375 28 43.3655 31.58 43.3655 36V40H8.8273V36C8.8273 31.58 16.5552 28 26.0964 28Z" fill="black"/>
+    </svg>
+  </ion-header>
+  <div class="line-1"></div>
+
+  <img class="imageMotalKombatPort" src="../../assets/imagen/MotalKombatPort.png" />
+
+  <div class="view-catalog-vm">
+    <div class="catalog">
+      <div class="groupGlobal">
+        <div class="groupXbox">
+          <div class="rectangleXbox rectangle"></div>
+          <div class="textXbox text">
+            Mortal Kombat 1 (Xbox Series X) Key-Goblal<br /><br />$69.99
+          </div>
+        </div>
+        <img class="imageXbox image" src="../../assets/imagen/MortalKombatOferts.png" />
+      </div>
+      <div class="groupGlobal">
+        <div class="groupSwitch">
+          <div class="rectangleSwitch rectangle"></div>
+          <div class="textSwitch text">
+            Mortal Kombat 1 (Nintendo Switch) Key-Goblal<br />$69.99
+          </div>
+        </div>
+        <img class="imageSwitch image" src="../../assets/imagen/MortalKombatOferts.png" />
+      </div>
+      <div class="groupGlobal">
+        <img class="imagePs5Edition image" src="../../assets/imagen/MortalKombatOferts2.png" />
+        <div class="groupPs5Edition">
+          <div class="rectanglePs5Edition rectangle"></div>
+          <div class="textPs5Edition text">
+            Mortal Kombat 1 | Premium Edition (PS5) Key-Goblal<br />$109.99
+          </div>
+        </div>
+      </div>
+      <div class="groupGlobal">
+        <img class="imageXboxEdition image" src="../../assets/imagen/MortalKombatOferts2.png" />
+        <div class="groupXboxEdition">
+          <div class="rectangleXboxEdition rectangle"></div>
+          <div class="textXboxEdition text">
+            Mortal Kombat 1 | Premium Edition (Xbox Series X) Key-Goblal<br />$109.99
+          </div>
+        </div>
+      </div>
+      <div class="groupGlobal">
+        <img class="imageSwitchEdition image" src="../../assets/imagen/MortalKombatOferts2.png" />
+        <div class="groupSwitchEdition">
+          <div class="rectangleSwitchEdition rectangle"></div>
+          <div class="textSwitchEdition text">
+            Mortal Kombat 1 | Premium Edition(Nintendo Switch) Key-Goblal<br />$109.99
+          </div>
+        </div>
+      </div>
+      <div class="groupGlobal">
+        <div class="groupPs5">
+          <button ion-button [routerLink]="['/buy-mk1-ps5']"button>
+            <div class="rectanglePs5 rectangle"></div>
+            <div class="textPs5 text">
+              Mortal Kombat 1 (PS5) Key-Goblal<br /><br />$69.99
+            </div>
+          </button>
+        </div>
+        <button ion-button [routerLink]="['/buy-mk1-ps5']"button>
+          <img class="imagePs5 image" src="../../assets/imagen/MortalKombatOferts.png"/>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="textInformation">
+    <span class="textTitle">
+      Test your might
+      <br/>
+    </span>
+    <span class="textDescrp">
+      MK es una serie de videojuegos con una rica historia: sumérgete en su
+      pasado experimentando sus primeros títulos.
+    </span>
+  </div>
+
+  <div class="frameVideogame">
+    <div class="group">
+      <div class="rectangleMortalKombatAftermath rectangle-2"></div>
+      <div class="textMortalKombatAftermath text-2">
+        Mortal Kombat 11 - Aftermath (PS4) Key-Goblal<br />$59.99
+      </div>
+      <img class="imageMortalKombatAftermath image-2" src="../../assets/imagen/MortalKombatAftermath.png" />
+    </div>
+    <div class="group">
+      <div class="rectangleMortalKombat11 rectangle-2"></div>
+      <div class="textMortalKombat11 text-2">
+        Mortal Kombat 11 (PS4) Key-Goblal<br /><br />$49.99
+      </div>
+      <img class="imageMortalKombat11 image-2" src="../../assets/imagen/MortalKombat11.png" />
+    </div>
+    <div class="group">
+      <div class="rectangleMortalKombatX rectangle-2"></div>
+      <div class="textMortalKombatX text-2">
+        Mortal Kombat X (PS4) Key-Goblal<br /><br />$19.99
+      </div>
+      <img class="imageMortalKombatX image-2" src="../../assets/imagen/MortalKombatX.png" />
+    </div>
+  </div>
+</ion-content>

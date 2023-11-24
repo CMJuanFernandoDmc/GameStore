@@ -1,0 +1,234 @@
+.body{
+    width: 100%;
+    height: 100vh;
+}
+.header {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
+.logo{
+  width: 15.3825rem;
+  height: 4.5625rem;
+  position: relative;
+}
+.slogan{
+  color: #000000;
+  text-align: left;
+  font: 400 1.25rem "Inter", sans-serif;
+  position: relative;
+  width: 100%;
+  height: 2.5rem;
+}
+.material-symbols-search {
+  position: relative;
+  overflow: visible;
+}
+.mdi-person {
+  position: relative;
+  overflow: visible;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.0625rem 0 0 0;
+  width: 26.875rem;
+  height: 0rem;
+  position: relative;
+}
+
+.imageMotalKombatPort {
+  width: 31.25rem;
+  height: 13rem;
+  position: relative;
+}
+
+.view-catalog-vm {
+  background: #ffffff;
+  margin-top: -8rem;
+  margin-left: 0.5rem;
+  width: 21.4rem;
+  height: 13.5rem;
+  position: relative;
+  overflow-x: auto;
+}
+.catalog {
+  background: #ffffff;
+  width: 49.063rem;
+  height: 14rem;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 140.5px);
+  overflow: hidden;
+}
+.groupGlobal {
+  position: absolute;
+  inset: 0;
+}
+.groupPs5 {
+  width: 6.188rem;
+  height: 6.375rem;
+  position: static;
+}
+.rectangle{
+  background: #d9d9d9;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.063rem;
+  width: 6.188rem;
+  height: 6rem;
+  top: 8rem;
+  position: absolute;
+}
+.text{
+  color: #000000;
+  text-align: left;
+  font: 400 12px "Inter-Regular", sans-serif;
+  position: absolute;
+  width: 5.855rem;
+  height: 5.75rem;
+  top: 8.1rem;
+}
+.image{
+  width: 6.188rem;
+  height: 7rem;
+  position: absolute;
+}
+.rectanglePs5 {
+  left: 0.625rem;
+}
+.textPs5 {
+  left: 0.958rem;
+}
+.imagePs5 {
+  left: 0.625rem;
+  top: 1rem;
+}
+.rectangleXbox {
+  left: 8.938rem;
+}
+.textXbox {
+  left: 9.27rem;
+}
+.imageXbox {
+  left: 8.938rem;
+  top: 1rem;
+}
+.rectangleSwitch {
+  left: 17.25rem;
+}
+.textSwitch {
+  left: 17.583rem;
+}
+.imageSwitch {
+  left: 17.25rem;
+  top: 1rem;
+}
+.imagePs5Edition {
+  left: 25.563rem;
+  top: 1rem;
+}
+.rectanglePs5Edition {
+  left: 25.563rem;
+}
+.textPs5Edition {
+  left: 25.895rem;
+}
+.imageXboxEdition {
+  left: 33.875rem;
+  top: 1rem;
+}
+.rectangleXboxEdition {
+  left: 33.875rem;
+}
+.textXboxEdition {
+  left: 34.208rem;
+}
+.imageSwitchEdition {
+  left: 42.188rem;
+  top: 1rem;
+}
+.rectangleSwitchEdition {
+  left: 42.188rem;
+}
+.textSwitchEdition {
+  left: 42.52rem;
+}
+
+.textInformation{
+  color: #000000;
+  text-align: left;
+  position: relative;
+  width: 21rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+.textTitle{
+  color: #000000;
+  font: 400 23px "Inter-Regular", sans-serif;
+}
+.textDescrp{
+  color: #000000;
+  font: 400 13px "Inter-Regular", sans-serif;
+}
+
+.frameVideogame{
+  width: 26.875rem;
+  height: 18.938rem;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-2{
+  background: #d9d9d9;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 0.063rem;
+  width: 6rem;
+  height: 6.5rem;
+  position: absolute;
+  top: 10rem;
+}
+.image-2{
+  width: 6rem;
+  height: 7rem;
+  position: absolute;
+}
+.text-2{
+  color: #000000;
+  text-align: left;
+  font: 400 13px "Inter-Regular", sans-serif;
+  position: absolute;
+  width: 5.438rem;
+  height: 7.063rem;
+  top: 10rem;
+}
+.rectangleMortalKombatAftermath {
+  left: 1.1rem;
+}
+.textMortalKombatAftermath {
+  left: 1.3rem;
+}
+.imageMortalKombatAftermath {
+  left: 1.1rem;
+  top: 3.063rem;
+}
+.rectangleMortalKombat11 {
+  left: 8.1rem;
+}
+.textMortalKombat11 {
+  left: 8.3rem;
+}
+.imageMortalKombat11 {
+  left: 8.1rem;
+  top: 3.063rem;
+}
+.rectangleMortalKombatX {
+  left: 15.2rem;
+}
+.textMortalKombatX {
+  left: 15.4rem;
+}
+.imageMortalKombatX {
+  left: 15.2rem;
+  top: 3.063rem;
+}

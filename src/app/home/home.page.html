@@ -1,20 +1,95 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
+<ion-content class="body">
+  <ion-header class="header">
+    <img class="logo" src="../../assets/imagen/logo.png">
+    <div class="slogan">CapitanDante<br />GameStore</div>
+    <svg class="material-symbols-search" width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38.1116 42L26.1442 29.4C25.1944 30.2 24.1021 30.8333 22.8674 31.3C21.6326 31.7667 20.3187 32 18.9257 32C15.4748 32 12.5544 30.7413 10.1648 28.224C7.77506 25.7067 6.57957 22.632 6.57831 19C6.57831 15.3667 7.77379 12.292 10.1648 9.776C12.5557 7.26 15.476 6.00133 18.9257 6C22.3766 6 25.297 7.25867 27.6866 9.776C30.0763 12.2933 31.2718 15.368 31.2731 19C31.2731 20.4667 31.0515 21.85 30.6082 23.15C30.165 24.45 29.5634 25.6 28.8036 26.6L40.7711 39.2L38.1116 42ZM18.9257 28C21.3002 28 23.3188 27.1247 24.9816 25.374C26.6444 23.6233 27.4752 21.4987 27.4739 19C27.4739 16.5 26.6425 14.3747 24.9797 12.624C23.3169 10.8733 21.2989 9.99867 18.9257 10C16.5512 10 14.5326 10.8753 12.8698 12.626C11.207 14.3767 10.3762 16.5013 10.3775 19C10.3775 21.5 11.2089 23.6253 12.8717 25.376C14.5345 27.1267 16.5525 28.0013 18.9257 28Z" fill="black"/>
+    </svg>
+    <svg class="mdi-person" width="52" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M26.0964 8C28.3864 8 30.5826 8.84285 32.2019 10.3431C33.8212 11.8434 34.7309 13.8783 34.7309 16C34.7309 18.1217 33.8212 20.1566 32.2019 21.6569C30.5826 23.1571 28.3864 24 26.0964 24C23.8064 24 21.6101 23.1571 19.9908 21.6569C18.3715 20.1566 17.4618 18.1217 17.4618 16C17.4618 13.8783 18.3715 11.8434 19.9908 10.3431C21.6101 8.84285 23.8064 8 26.0964 8ZM26.0964 28C35.6375 28 43.3655 31.58 43.3655 36V40H8.8273V36C8.8273 31.58 16.5552 28 26.0964 28Z" fill="black"/>
+    </svg>   
   </ion-header>
+  <div class="line-1"></div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="view-videogame-vm">
+    <div class="videogame">
+      <div class="group">
+        <img class="imageUncharted tamImg" src="../../assets/imagen/Uncharted.png" />
+        <div class="frameUncharted tamFrame">
+          <div class="compra-ahora compra">Compra ahora</div>
+        </div>
+      </div>
+      <div class="group">
+        <img class="imageDMC tamImg" src="../../assets/imagen/DevilMayCry.png" />
+        <div class="frameDMC tamFrame">
+          <div class="compra-ahora compra">Compra ahora</div>
+        </div>
+      </div>
+      <div class="group">
+        <img class="imageCod tamImg" src="../../assets/imagen/Cod.png"/>
+        <div class="frameCod tamFrame">
+          <div class="compra-ahora2 compra">Compra ahora</div>
+        </div>
+      </div>
+      <div class="group">
+        <img class="imageBatman tamImg" src="../../assets/imagen/Batman.png" />
+        <div class="frameBatman tamFrame">
+          <div class="compra-ahora2 compra">Compra ahora</div>
+        </div>
+      </div>
+      <div class="group">
+        <img class="imageMortalKombat tamImg" src="../../assets/imagen/MortalKombat.png" />
+        <div class="frameMortalKombat tamFrame">
+          <button ion-button [routerLink]="['/oferts']" class="compra-ahora compra">Compra ahora</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="line-2 line-1"></div>
+  <div class="divText">
+    <span class="text">
+      Productos de moda:
+      <br/>
+    </span>
+    <span class="text2">
+      <br/>
+      Las mejores ofertas, nuevos lanzamientos, títulos Triple A e
+      indies, DLCs, tarjetas regalo y mucho más. Compra los videojuegos más
+      vendidos y otros productos digitales al mejor precio.
+      </span>
+  </div>
+  
+  <div class="view-catalog-vm">
+    <div class="catalog">
+      <div class="group-2">
+        <div class="rectangleModernWarfare rectangle"></div>
+        <img class="imageModernWarfare image" src="../../assets/imagen/ModernWarfare.png" />
+        <div class="textModernWarfare text-3">
+          Modern Warfare (PS4) Key-Goblal<br /><br /><br />$69.99
+        </div>
+      </div>
+      <div class="group-2">
+        <div class="rectangleResident rectangle"></div>
+        <img class="imageResident image" src="../../assets/imagen/ResidentEvil.png" />
+        <div class="textResident text-3">
+          Resident Evil 4 Remastered (PS4) Key-Goblal<br /><br />$69.99
+        </div>
+      </div>
+      <div class="group-2">
+        <div class="rectangleMortalKombat11 rectangle"></div>
+        <img class="imageMortalKombat11 image" src="../../assets/imagen/MortalKombatAftermath.png" />
+        <div class="textMortalKombat11 text-3">
+          Mortal Kombat 11 - Aftermath (PS4) Key-Goblal<br /><br />$59.99
+        </div>
+      </div>
+      <div class="group-2">
+        <div class="rectangleGtav rectangle"></div>
+        <img class="imageGtav image" src="../../assets/imagen/Gtav.png" />
+        <div class="textGtav text-3">
+          Grand Theft Auto V - Preium Online Edition(PS4) Key-Goblal<br />$29.99
+        </div>
+      </div>
+    </div>
   </div>
 </ion-content>
